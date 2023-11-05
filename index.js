@@ -12,3 +12,19 @@ let me = moment("19951005", "YYYYMMDD").fromNow();
 console.log(me);
 let someMath = math.sqrt(-4);
 console.log(someMath);
+function f(x, y = 12) {
+  return x + y;
+}
+console.log(f(5));
+
+let x = "cat";
+let y = "dog";
+console.log(`${x}${y}`);
+
+
+let header = document.querySelector("#my_header");
+console.log(header);
+header.innerHTML = "";
+header.style.color = "purple";
+header.style.backgroundColor = "grey";
+
